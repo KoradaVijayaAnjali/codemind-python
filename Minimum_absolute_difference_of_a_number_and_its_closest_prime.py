@@ -14,11 +14,11 @@ n=int(input())
 d=n+1
 e=n-1
 if n>1 and np(n)==1:
-    print("0")
+    print('0')
 elif n==0:
     print("2")
 elif n==1:
-    print("1")
+    print('1')
 else:
     while a:
         if np(d)==1 and np(e)==1:
@@ -31,4 +31,3 @@ else:
         print(n-e)
     else:
         print(d-n)
-        
